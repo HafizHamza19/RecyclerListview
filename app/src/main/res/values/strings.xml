@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Recycler listView</string>
+    <string name="view_design_list">View Design List</string>
+    <string name="list_style">List Style</string>
+    <string name="grid_style">Grid Style</string>
+    <string name="view_design_grid">View Design Grid</string>
+    <string name="copyright_aldiee">© Copyright 2017 Am</string>
+    <string name="app_name_grid">Grid of President</string>
+    <string name="app_name_list">List of Vehicle</string>
+    <string name="car_name">Car Name</string>
+    <string name="car_model">Model</string>
+    <string name="aircondition">Aircondition</string>
+    <string name="autotransmission">Autotransmission</string>
+    <string name="car_standard">Luxury/SUV</string>
+    <string name="car_model_year">2020</string>
+    <string name="car_info">All Wheel Drive</string>
+    <string name="brakes">Abs Brakes</string>
+
+    <string name="president_name">All Wheel Drive</string>
+    <string name="president_of">Abs Brakes</string>
+
+
+    <string name="rate">Book Now</string>
+    <string name="app_name_detail">Detail of President</string>
+    <string name="about">About, President of</string>
+    <string name="description">Assuming you are finishing the login screen when the user logs in and home is created and afterwards all the screens from 1 to 5 on top of that one. The code i posted will return you to home screen finishing all the other activites. You can add an extra in the from there or something).</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="two_dot">:</string>
+    <string name="periode">Presidential term</string>
+    <string name="dua">2</string>
+    <string name="leadership">Leadership</string>
+    <string name="vote">Vote</string>
+    <string name="firmness">Firmness</string>
+    <string name="decision">Decision</string>
+    <string name="releated">Releated President</string>
+    <string name="submit">Submit</string>
+</resources>
