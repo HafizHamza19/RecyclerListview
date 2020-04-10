@@ -4,11 +4,12 @@
     <string name="list_style">List Style</string>
     <string name="grid_style">Grid Style</string>
     <string name="view_design_grid">View Design Grid</string>
-    <string name="copyright_aldiee">© Copyright 2017 Am</string>
+    <string name="copyright_hafiz">© Copyright 2020 Am</string>
     <string name="app_name_grid">Grid of President</string>
     <string name="app_name_list">List of Vehicle</string>
     <string name="car_name">Car Name</string>
     <string name="car_model">Model</string>
+    <string name="presiden_birth">Model</string>
     <string name="aircondition">Aircondition</string>
     <string name="autotransmission">Autotransmission</string>
     <string name="car_standard">Luxury/SUV</string>

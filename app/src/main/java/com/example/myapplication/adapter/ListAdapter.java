@@ -1,4 +1,4 @@
-package com.hafizhamza.myapplication.adapter;
+package com.hafiz.myapplication.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.hafizhamza.myapplication.Vehicle;
+import com.hafiz.myapplication.Vehicle;
 import com.hafizhamza.myapplication.R;
-import com.hafizhamza.myapplication.activity.DetailActivity;
+import com.hafiz.myapplication.activity.DetailActivity;
 import com.mikhaellopez.circularimageview.CircularImageView;
 import com.squareup.picasso.Picasso;
 

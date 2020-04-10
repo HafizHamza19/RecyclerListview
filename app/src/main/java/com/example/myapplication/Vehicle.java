@@ -1,4 +1,4 @@
-package com.hafizhamza.myapplication;
+package com.hafiz.myapplication;
 
 
 public class Vehicle

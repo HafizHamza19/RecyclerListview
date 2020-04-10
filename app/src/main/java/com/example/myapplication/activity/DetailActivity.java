@@ -1,4 +1,4 @@
-package com.hafizhamza.myapplication.activity;
+package com.hafiz.myapplication.activity;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,9 +20,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.hafizhamza.myapplication.Vehicle;
+
+import com.hafiz.myapplication.Vehicle;
+import com.hafiz.myapplication.adapter.ReleatedAdapter;
 import com.hafizhamza.myapplication.R;
-import com.hafizhamza.myapplication.adapter.ReleatedAdapter;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.Picasso;
 
@@ -200,9 +201,9 @@ public class DetailActivity extends AppCompatActivity {
         if(data.getStringExtra("in").equals("gr")){
         //     intent = new Intent(DetailActivity.this, GridActivity.class);
         }else{
-            intent = new Intent(DetailActivity.this, ListActivity.class);
+            intent = new Intent(DetailActivity.this, com.hafiz.myapplication.activity.ListActivity.class);
         }
-        intent = new Intent(DetailActivity.this, ListActivity.class);
+        intent = new Intent(DetailActivity.this, com.hafiz.myapplication.activity.ListActivity.class);
 
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);

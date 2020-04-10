@@ -10,28 +10,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hafiz.myapplication.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
- <activity android:name="com.hafizhamza.myapplication.activity.ListActivity"
+ <activity android:name="com.hafiz.myapplication.activity.ListActivity"
         android:screenOrientation="portrait"
         android:theme="@style/AppTheme.NoActionBar">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.hafizhamza.myapplication.MainActivity" />
+            android:value="com.hafiz.myapplication.MainActivity" />
     </activity>
 
-        <activity android:name="com.hafizhamza.myapplication.activity.DetailActivity"
+        <activity android:name="com.hafiz.myapplication.activity.DetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.hafizhamza.myapplication.MainActivity" />
+                android:value="com.hafiz.myapplication.MainActivity" />
         </activity>
+
+        <activity android:name="com.hafiz.myapplication.activity.GridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hafiz.myapplication.activity.GridActivity" />
+        </activity>
+
     </application>
 
 </manifest>
